@@ -1,0 +1,27 @@
+.heading-primary{
+    color: $color-primary-dark;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+.heading-secondary{
+    color: $color-primary-dark;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3rem;
+    border-bottom: .5px solid $color-primary-dark;
+    padding: .3rem;
+    width: 100%;
+}
+
+.heading-tertiary{
+    text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1.1rem;
+    &--light{
+        color: $color-font-light;
+    }
+    &--green{
+        color: $color-primary-dark;
+    }
+}

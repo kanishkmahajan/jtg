@@ -1,0 +1,29 @@
+.slider{
+    display:flex;
+    // height : 500px;
+    position: relative;
+    transform: translateY(-8px);
+    // border: 1px solid $color-secondary;
+    // background-image: url("img/banner_slider_01.jpg");
+    // background-size: cover;
+    &__banner{
+        width:100%;
+        border: 1px solid $color-secondary;
+       
+      
+
+    }
+    &__content{
+        width: 30%;
+        position: absolute;
+        right: 2%;
+        top: 15%;
+        padding: 1rem;
+        // transform: translateY(-50%);
+    }
+    &__text{
+        color: $color-font-dark;
+        font-size: 1.2rem;
+    }
+}
+

@@ -1,0 +1,22 @@
+.media{
+    background-image: linear-gradient(to top, $color-secondary-light, white);
+    padding: 1rem ;
+    border: .5px solid $color-secondary;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4rem;
+    &__items {
+        // width:80%;
+        padding:  3rem; 
+    }
+    &__grid{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+        &-item{
+            height: 10rem;
+        }
+    }
+}

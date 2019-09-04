@@ -1,0 +1,38 @@
+.lifestyle{
+    background-image: linear-gradient(to top, $color-secondary-light, white);
+    padding: 1rem 2rem;
+    border: .5px solid $color-secondary;
+    &__content{
+        
+        &-img{
+            
+            height: 10rem;
+        }
+        &-container{
+            display:flex;
+        }
+        &-subpart{
+            padding: 0 1rem;
+            // padding-bottom:0; 
+            height: 26.4rem;
+            &:not(:last-child){
+                border-right: .9px solid $color-secondary;
+            }
+            &:not(:first-child){
+                padding: 0 1rem;
+            }
+        }
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        &-part{
+            padding: 1rem;
+            height: 29rem;
+            &:not(:last-child){
+                border-right: .5px solid $color-secondary;
+            }
+        }
+        
+    }
+    
+}
